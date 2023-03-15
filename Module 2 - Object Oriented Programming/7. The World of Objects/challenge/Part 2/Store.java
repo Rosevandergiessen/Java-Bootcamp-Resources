@@ -4,17 +4,18 @@ public class Store {
 
     public Store() {
         // TODO
+        this.movies = new Movie[10];
     }
 
     public Movie getMovie(int index) {
-        // TODO 
-        return null;
+        // TODO
+        return new Movie(this.movies[index])
     }
 
     public void setMovie(int index, Movie movie) {
-        // TODO 
+        // TODO
+        this.movies[index] = new Movie(movie);
     }
-
 
     public String toString() {
         String temp = "";
