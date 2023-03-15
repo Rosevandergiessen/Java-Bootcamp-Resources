@@ -13,6 +13,7 @@ public class Main {
 
       productStore(pants);
 
+      System.out.println(shirt);
     }
 
     public static void productStore(Product product) {
