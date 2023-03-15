@@ -16,7 +16,7 @@ public class Main {
         cities.add(new City("Venice", 261905));
         cities.add(new City("Versailles", 85771));
         cities.add(new City("London", 8982000));
-        
+
         System.out.println(cities.contains(paris));
     }
 
