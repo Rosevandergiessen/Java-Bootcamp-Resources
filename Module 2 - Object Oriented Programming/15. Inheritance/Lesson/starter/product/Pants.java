@@ -27,8 +27,13 @@ public class Pants extends Product {
   }
   @Override
   public void fold() {
-    System.out.println("Fold one leg over the other");
+    super.fold();
     System.out.println("Fold pants from bottom");
+  }
+
+  @Override
+  public void wear() {
+    System.out.println("The pants looks good on you!");
   }
 
 }

@@ -9,16 +9,15 @@ public class Main {
 
       Shirt shirt = new Shirt(40, "Black", "Armed Angels", Size.SMALL);
 
-      shirt.fold();
-
       Pants pants = new Pants(130, "Black", "levi's", 32, 32);
 
-      pants.fold();
       productStore(pants);
 
     }
 
     public static void productStore(Product product) {
       System.out.println("Thank you for purchasing the " + product.getBrand() + " " + product.getClass().getSimpleName().toLowerCase() + ".");
+      product.wear();
     }
+
   }

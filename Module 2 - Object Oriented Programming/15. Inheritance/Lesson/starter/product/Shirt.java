@@ -19,10 +19,13 @@ public class Shirt extends Product {
 
   @Override
   public void fold() {
-    super.fold();
-    System.out.println("Lay shirt on a flat surface");
+    super.fold();;
     System.out.println("Fold shirt sideways");
-    System.out.println("Fold from bottom up");
+  }
+
+  @Override
+  public void wear() {
+    System.out.println("It suits you well");
   }
 
 }
